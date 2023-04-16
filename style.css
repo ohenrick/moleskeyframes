@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  main {
+    display: flex;
+    background-image: url(./assets/fundo.svg);
+    width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+  }
+  
+  #conteiner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 224px auto 0;
+    gap: 54px;
+    width: 1070px;
+    height: 564px;
+  }
+  
+  .holes {
+    background-image: url(./assets/toupeira6.svg);
+    width: 222px;
+    height: 169px;
+  }
+  
+  .mole1 {
+    animation: mole-topdown 2s 2s;
+  }
+  
+  .mole2 {
+    animation: mole-topdown 3s 4s;
+  }
+  
+  .mole3 {
+    animation: mole-topdown 3s 6s;
+  }
+
+  .mole4 {
+    animation: mole-topdown 4s 8s;
+  }
+  
+  @keyframes mole-topdown {
+    0% {
+      background-image: url(./assets/toupeira1.svg);
+    }
+    20% {
+      background-image: url(./assets/toupeira2.svg);
+    }
+    40% {
+      background-image: url(./assets/toupeira3.svg);
+    }
+    60% {
+      background-image: url(./assets/toupeira4.svg);
+    }
+    80% {
+      background-image: url(./assets/toupeira5.svg);
+    }
+    100%{
+      background-image: url(./assets/toupeira6.svg);
+    }
+  }
