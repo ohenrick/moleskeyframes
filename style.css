@@ -42,7 +42,7 @@
   }
 
   .mole4 {
-    animation: mole-topdown 4s 8s;
+    animation: mole-topdown 2s 8s;
   }
   
   @keyframes mole-topdown {
